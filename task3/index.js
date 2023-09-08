@@ -40,7 +40,7 @@ const cart = {
           break;
         case 'exit':
           console.log('Exiting program. Goodbye!');
-          process.exit(); // Terminate the program
+          process.exit(); 
         default:
           console.log('Invalid command. Please try again.');
       }
